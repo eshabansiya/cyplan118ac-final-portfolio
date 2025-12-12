@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #555;
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+/* Section Styling */
+.line-section {
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 900px;
+}
+
+.line-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Station Cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.station-card {
+  flex: 1 1 calc(50% - 20px);
+  text-align: center;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.station-card:hover {
+  transform: translateY(-5px);
+  opacity: 0.9;
+}
+
+/* Color Lines */
+.red { background: #D7263D; }
+.blue { background: #0074D9; }
+.green { background: #2ECC71; }
+
+/* Essay Page Layout */
+.page-wrapper {
+  width: 90%;
+  max-width: 850px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Subway Stop Navigation */
+.subway-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.subway-nav a {
+  text-decoration: none;
+  background: #333;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+}
+
+.subway-nav a:hover {
+  opacity: 0.8;
+}
+
+/* Subway Stop Headers */
+.stop {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.stop::before {
+  content: "🚏 ";
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 13px;
+  color: #777;
+}
