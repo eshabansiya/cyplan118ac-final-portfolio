@@ -1,52 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CYPLAN 118AC Final Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>CYPLAN 118AC Transit Map</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-  <h1>🚇 Urban Inequality & Capitalism Portfolio</h1>
-  <p class="subtitle">A transit-themed journey through reflections, case studies, and analysis</p>
-</header>
+  <header class="portfolio-header">
+    <div class="title-block">
+      <h1>CYPLAN 118AC Final Portfolio</h1>
+      <h2>Esha Bansiya</h2>
+      <div class="legend-line"></div>
+    </div>
+  </header>
 
-<!-- Section 1: Red Line -->
-<section class="line-section red-line">
-  <h2>🔴 Line 1 — Foundations</h2>
+  <div class="map-wrapper">
+    <svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 300 -200 L 300 1000" stroke="#2ECC71" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <path d="M -200 300 L 300 300 L 500 280 Q 650 300 1200 350" stroke="#D7263D" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <path d="M 500 -150 L 500 350 Q 500 420 550 450 L 700 470 Q 820 520 820 600 L 300 600" stroke="#0074D9" stroke-width="14" stroke-linecap="round" fill="none"/>
 
-  <div class="card-container">
-    <a href="section-1a.html" class="station-card red">1A: Reading Reflection</a>
-    <a href="section-1b.html" class="station-card red">1B: Comparative Media Analysis</a>
+      <a href="section-1a.html"><circle cx="300" cy="300" r="14" class="station red"/><text x="310" y="280" class="label">1A</text></a>
+      <a href="section-1b.html"><circle cx="500" cy="280" r="14" class="station red"/><text x="520" y="270" class="label">1B</text></a>
+      <a href="section-2a.html"><circle cx="500" cy="350" r="14" class="station blue"/><text x="530" y="350" class="label">2A</text></a>
+      <a href="section-2b.html"><circle cx="560" cy="450" r="14" class="station blue"/><text x="570" y="420" class="label">2B</text></a>
+      <a href="section-2c.html"><circle cx="700" cy="470" r="14" class="station blue"/><text x="730" y="470" class="label">2C</text></a>
+      <a href="section-2d.html"><circle cx="300" cy="600" r="14" class="station blue"/><text x="320" y="580" class="label">2D</text></a>
+      <a href="section-3.html"><circle cx="300" cy="450" r="14" class="station green"/><text x="330" y="450" class="label">3</text></a>
+    </svg>
   </div>
-</section>
-
-<!-- Section 2: Blue Line -->
-<section class="line-section blue-line">
-  <h2>🔵 Line 2 — Case Studies</h2>
-
-  <div class="card-container">
-    <a href="section-2a.html" class="station-card blue">2A: SF Encampment Sweeps</a>
-    <a href="section-2b.html" class="station-card blue">2B: APEC Cleanup</a>
-    <a href="section-2c.html" class="station-card blue">2C: Wacquant Analysis</a>
-    <a href="section-2d.html" class="station-card blue">2D: Video Justification</a>
-  </div>
-</section>
-
-<!-- Section 3: Green Line -->
-<section class="line-section green-line">
-  <h2>🟢 Line 3 — Final Reflection</h2>
-
-  <div class="card-container">
-    <a href="section-3.html" class="station-card green">3: Final Course Reflection</a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 — Built for Urban Planning Coursework · GitHub Pages</p>
-</footer>
 
 </body>
 </html>
